@@ -1,0 +1,31 @@
+# Diretórios do Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Arquivos de ambiente virtual
+venv/
+.env
+*.env
+
+# VSCode
+.vscode/
+
+# Arquivos de build e logs
+*.log
+*.sqlite3
+*.db
+dist/
+build/
+
+# Pytest / Coverage
+htmlcov/
+coverage.*
+.cache/
+.pytest_cache/
+
+# Arquivos específicos do sistema
+.DS_Store
+
+.env
+.env.dev
